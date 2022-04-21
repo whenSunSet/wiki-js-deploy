@@ -26,7 +26,7 @@ https://pan.baidu.com/s/1xVlHhGSV2sxhxHUQFd81Hg?pwd=9kgr
 ```shell
 ## 第一步，解压刚刚下载的数据，然后进入目录
 
-## 第二步，命令行运行
+## 第二步，命令行运行，注意这一步需要输入系统密码
 bash run-linux.sh
 
 ## 第三步，按照提示输入
@@ -36,7 +36,7 @@ bash run-linux.sh
 ```shell
 ## 第一步，解压刚刚下载的数据，然后进入目录
 
-## 第二步，命令行运行
+## 第二步，命令行运行，注意这一步需要输入系统密码
 sh run-mac.sh
 
 ## 第三步，按照提示输入
