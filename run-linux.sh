@@ -11,11 +11,12 @@ main() {
     else
         echo ">>>>>>>> 部署路径设置为：$path，如果部署出现异常请删除该目录，然后重新执行部署流程。" 
     fi
+    echo ">>>>>>>> 如果 $path/wiki-data 目录已经存在，请先将其删除" 
     mkdir -p $path/wiki-data 
     unzip -d $path/wiki-data wiki-data.zip
     prepareWiki 
     docker-compose -f $path/wiki-data/docker-compose.yml up -d
-    echo ">>>>>>>> Wiki.js成功运行"
+    echo ">>>>>>>> Wiki.js成功运行，数据存储于：$path/wiki-data，请妥善保管。"
 }
 
 prepareWiki() {
