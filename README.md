@@ -10,8 +10,7 @@
 
 ### 1.下载数据
 
-- 方法1：`git clone ssh://git@192.168.123.204:4422/Docker/wiki-js-deploy.git`
-- 方法2：[进入这里手动下载解压](http://gitlab.heshixi.loc/Docker/wiki-js-deploy)
+`git clone git@github.com:whenSunSet/wiki-js-deploy.git`
 
 ### 2.部署
 
