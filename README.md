@@ -17,7 +17,7 @@
 
 #### (2).使用百度云下载
 ```
-https://pan.baidu.com/s/1Urpy9iZ1p2xlKeBF3pNgUw?pwd=smbe
+https://pan.baidu.com/s/1xVlHhGSV2sxhxHUQFd81Hg?pwd=9kgr
 ```
 
 ### 2.部署
