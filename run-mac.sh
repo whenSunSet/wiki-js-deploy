@@ -6,7 +6,7 @@ main() {
     read path 
     if [ $path == "default" ]
     then
-        path="$HOME/.Wiki-W" 
+        path="$HOME/.Wiki-WS" 
         echo ">>>>>>>> 部署路径设置为默认的：$path，如果部署出现异常请删除该目录，然后重新执行部署流程。"
     else
         echo ">>>>>>>> 部署路径设置为：$path，如果部署出现异常请删除该目录，然后重新执行部署流程。" 
@@ -14,7 +14,7 @@ main() {
     mkdir -p $path/wiki-data 
     unzip -d $path/wiki-data wiki-data.zip
     prepareWiki 
-    docker-compose -f $path/docker-compose.yml up -d
+    docker-compose -f $path/wiki-data/docker-compose.yml up -d
     echo ">>>>>>>> Wiki.js成功运行"
 }
 
